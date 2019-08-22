@@ -13,6 +13,7 @@ export default class Edit extends Component {
     };
 
     this.updatePost = this.updatePost.bind( this );
+    this.updateText = this.updateText.bind( this );
   }
 
   updateText( value ) {
